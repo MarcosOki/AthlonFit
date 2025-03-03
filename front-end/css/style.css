@@ -1,5 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.navbar-nav {
+    align-items: center;
+   
+}
+.navbar {
+    padding: 40px 0; 
+}
+.logo {
+    height: 40px;
+    width: auto; 
 }
