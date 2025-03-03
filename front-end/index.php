@@ -36,13 +36,14 @@
         </nav>
     </header>
     <section>
+    
 
     </section>
     <section>
 
     </section>
-    <footer>
-        <div class="container my-5">
+    <footer class="w-100 bg-dark">
+        <div class="container ">
 
             <footer class="text-white text-center text-lg-start bg-dark">
               <!-- Grid container -->
@@ -90,7 +91,7 @@
                         <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Maguari, Ananindeua - PA, 67145-100, Brasil.</span>
                       </li>
                       <li class="mb-3">
-                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">athloncontato@gamil.com</span>
+                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">athloncontato@gmail.com</span>
                       </li>
                       <li class="mb-3">
                         <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+55 91 98500-4141</span>
