@@ -8,13 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>UEPA</h1>
-    <p><?php echo htmlspecialchars( $_GET['error']); ?></p>
-    <form action="database/req/create-message.php" method="POST">
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit">Enviar</button>
-    </form>
+    <a href="fale-conosco.php">Fale conosco</a>
 </body>
 </html>
