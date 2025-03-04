@@ -1,11 +1,36 @@
-.navbar-nav {
-    align-items: center;
-   
-}
-.navbar {
-    padding: 40px 0; 
-}
 .logo {
-    height: 40px;
-    width: auto; 
+  height: 40px;
+  width: auto;
+}
+header {
+  height: 10vh;
+}
+.main-fale-conosco {
+  display: flex;
+  background-image: url("../img/fale-conosco-bg.jpg");
+  justify-content: start;
+  background-size: cover;
+  height: 90vh;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-fale-conosco div {
+  width: 400px;
+  margin-left: 15%;
+}
+#section-fale-conosco {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.199);
+}
+#section-fale-conosco form{
+    display: flex;
+    flex-direction: column;
+}
+#section-fale-conosco form input{
+    height: 50px;
+    font-size: 20px;
 }
