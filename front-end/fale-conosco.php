@@ -1,3 +1,21 @@
+<?php 
+if(isset($_GET['success'])){
+  echo "<script>
+            document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('section-fale-conosco').scrollIntoView();
+            });
+            alert('Mensagem enviada com sucesso!');
+          </script>";
+}else if(isset($_GET["error"])){
+  $msg = $_GET['error'];
+  echo "<script>
+            document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('section-fale-conosco').scrollIntoView();
+            });
+            alert('Error: $msg!');
+          </script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,7 +27,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-dark">
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container">
