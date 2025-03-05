@@ -1,11 +1,18 @@
-.navbar-nav {
-    align-items: center;
-   
-}
-.navbar {
-    padding: 40px 0; 
-}
 .logo {
-    height: 40px;
-    width: auto; 
+    height: 70px;
+}
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  border: none;
+  background-color: transparent;
+}
+.card-title, .card-text {
+  color: white; 
 }
