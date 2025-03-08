@@ -1,13 +1,20 @@
 <?php
 
+session_start();
+if(empty($_SESSION)){
+    header("Location: page-login.php");
+    exit();
+}
+
+
 include "database/conexao.php";
 
 if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
     $pesquisa = $_GET["pesquisa"];
-    $sql = "SELECT * FROM novos WHERE nome LIKE '%$pesquisa%' OR email LIKE '%$pesquisa%'";
+    $sql = "SELECT * FROM faleConosco WHERE nome LIKE '%$pesquisa%' OR email LIKE '%$pesquisa%'";
     $result = mysqli_query($conexao, $sql);
 } else {
-    $sql = "SELECT * FROM novos";
+    $sql = "SELECT * FROM faleConosco";
     $result = mysqli_query($conexao, $sql);
 }
 ?>
