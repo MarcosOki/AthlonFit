@@ -1,0 +1,13 @@
+h2 {
+    background-color:  rgba(0, 0, 0, 0.2); /* Cor de fundo suave */
+    padding: 10px; /* Espaçamento interno */
+    border-left: 5px solid whitesmoke; /* Barra lateral para destaque */
+    font-size: 1.5em;
+  }
+  .background-image-performance {
+    background:url(../img/performance_banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  
