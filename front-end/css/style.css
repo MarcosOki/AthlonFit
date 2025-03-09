@@ -16,7 +16,7 @@
 .card-title, .card-text {
   color: white; 
 }
-.background-image {
+.background-image-equipe {
   background:url(../img/banner-equipe.jpg) no-repeat center center;
   background-size: cover;
   height: 500px;
