@@ -7,66 +7,85 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="shortcut icon" href="img/logos.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <title>AthlonFit</title>
+    <link rel="stylesheet" href="css/desenvolvimento.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Nutrição</title>
     
 </head>
+
 <body class="bg-dark">
   <header>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-1">
-        <div class="container d-flex align-items-center">
-            <a class="navbar-brand d-flex align-items-center" >
-                <img src="img/logos.png" class="logo img-fluid me-2" alt="Logo" style="height: 50px;">
-                <span class="fs-1 mb-0 ">thlon</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav fs-5 ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active mx-3" aria-current="page" href="index.html">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-3" href="equipe.html">Equipe</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDesempenho" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desempenho</a>
-                        <ul class="dropdown-menu bg-dark text-light" aria-labelledby="navbarDesempenho">
-                            <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="performance.html">Dicas de Performance</a></li>
-                            <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="nutrição.html">Nutrição</a></li>
-                            <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="vestuário.html">Vestimenta Especializada</a></li>
-                        </ul>
-                    </li>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-3" href="fale-conosco.php">Fale-conosco</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-3" href="admin.php">Administração</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/logos.png" class="logo img-fluid me-2" alt="Logotipo da Athlon Fitness, Que é a Letra 'A'." style="height: 50px;">
+            <span class="fs-1 mb-0">thlon</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fs-5 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link mx-3" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="equipe.html">Equipe</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDesempenho" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desempenho</a>
+              <ul class="dropdown-menu bg-dark text-light" aria-labelledby="navbarDesempenho">
+                <li><a class="dropdown-item bg-dark text-light active" href="performance.html">Dicas de Performance</a></li>
+                <li><a class="dropdown-item bg-dark text-light" href="nutrição.html">Nutrição</a></li>
+                <li><a class="dropdown-item bg-dark text-light" href="vestuário.html">Vestimenta Especializada</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="topicosDropdown" role="button" data-bs-toggle="dropdown">📖 Tópicos</a>
+              <ul class="dropdown-menu" id="menu-topicos">                 
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico1">Importância</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico2">Macronutrientes</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico3">Micronutrientes</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico4">Hidratação</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico5">Frequência</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico6">Dietas Especiais</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#topico7">Conclusão</a></li>
+              </ul>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="fale-conosco.php">Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="admin.php">Administração</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-<section>
-    <img src="img/nutrição-banner.jpg" class="w-100" alt="Imagem">
-</section>
+  <section>
+    <div class="background-image-nutrição text-light text-uppercase text-lg-start ">
+      <div class="overlay"></div>
+      <div class="container position-absolute top-50 start-50 translate-middle">
+        <h1 class="mb-5 mt-3 text-center">O Guia Completo de Nutrição para Entusiastas de Fitness:</h1>
+        <h1 class="mb-5 mt-3 text-center">Alimentação Ideal para Resultados no Treino</h1>
+        <p class="lead text-center">A nutrição é um dos pilares fundamentais para alcançar seus objetivos de fitness. Seja você está buscando perder peso, ganhar músculo, aumentar a resistência ou simplesmente levar um estilo de vida mais saudável, o que você come desempenha um papel crucial no desempenho, recuperação e crescimento do seu corpo.</p>
+  </section>
 
 <div class="container">
 <section class="text-light text-lg-start bg-dark">
        
-      <h1 class="mb-5 mt-3 text-center">O Guia Completo de Nutrição para Entusiastas de Fitness</h1>
-      <p>A nutrição é um dos pilares fundamentais para alcançar seus objetivos de fitness. Seja você está buscando perder peso, ganhar músculo, aumentar a resistência ou simplesmente levar um estilo de vida mais saudável, o que você come desempenha um papel crucial no desempenho, recuperação e crescimento do seu corpo. Neste guia completo, exploraremos os aspectos essenciais da nutrição que ajudarão a maximizar seus resultados na academia e além. Este texto foi elaborado para fornecer clareza sobre o assunto, tornando fácil entender como a nutrição impacta diretamente sua jornada de fitness.</p>
-     
-      <h2 class="my-5">A Importância da Nutrição no Fitness</h2>
+      <h2 class="my-5" id="topico1">A Importância da Nutrição no Fitness</h2>
       <p>Em sua essência, a nutrição é a ciência de como os alimentos afetam o corpo. Quando se trata de fitness, a nutrição fornece o combustível necessário para o corpo realizar atividades físicas, se recuperar delas e melhorar sua composição corporal. Não basta simplesmente se exercitar; sem os nutrientes certos, seus esforços na academia não gerarão os resultados desejados. A nutrição apoia seus objetivos de fitness fornecendo energia, promovendo o crescimento e a reparação muscular, equilibrando hormônios e melhorando a saúde geral.</p>
       <p>Cada pessoa possui necessidades nutricionais únicas, com base em vários fatores, como idade, sexo, nível de atividade e objetivos específicos de fitness. Entender como atender a essas necessidades permitirá otimizar sua dieta e ajudá-lo a alcançar seus objetivos mais rapidamente. As próximas seções irão explorar os principais nutrientes que seu corpo precisa e como equilibrá-los para apoiar suas ambições de fitness.</p>
       
-      
-      <h2 class="my-5">Macronutrientes: Os Blocos de Construção da Nutrição</h2>
+      <div class="clearfix my-5 row">
+      <img src="img/macronutrientes.jpg" class="col-md-6 float-md-start  rounded-bottom rounded-end shadow " alt="...">
+      <div class="text-center col">
+      <h2 class="mb-5" id="topico2">Macronutrientes: Os Blocos de Construção da Nutrição</h2>
       <p>Os macronutrientes são os principais nutrientes que fornecem energia ao corpo. Eles são compostos por carboidratos, proteínas e gorduras, e cada um deles desempenha um papel vital na sua saúde e no seu fitness. Ter uma boa compreensão desses macronutrientes é essencial para construir uma dieta que apoie seus objetivos de fitness.</p>
       <h3 class="my-4">Carboidratos: A Principal Fonte de Energia do Corpo</h3>
       <p>Os carboidratos são a fonte preferencial de energia do corpo. Quando você consome carboidratos, o seu corpo os converte em glicose (açúcar no sangue), que é usada para energia imediata ou armazenada como glicogênio nos músculos e fígado para uso posterior. Durante o exercício, especialmente os treinos intensos, o corpo recorre às reservas de glicogênio para alimentar os músculos. Por isso, manter uma ingestão adequada de carboidratos é crucial para atletas e entusiastas do fitness.</p>
@@ -80,9 +99,9 @@
       <p>As gorduras muitas vezes são mal interpretadas e demonizadas na cultura popular. No entanto, elas são nutrientes vitais para o corpo, desempenhando um papel chave na regulação hormonal, na função cerebral e na absorção de vitaminas lipossolúveis, como A, D, E e K. Gorduras saudáveis, especialmente as insaturadas, ajudam a manter a saúde cardiovascular e fornecem uma fonte duradoura de energia.</p>
       <p>Existem três tipos principais de gorduras: saturadas, insaturadas e trans. As gorduras insaturadas, encontradas em alimentos como azeite de oliva, abacates, nozes e peixes gordos, são consideradas as mais saudáveis e benéficas. As gorduras saturadas, encontradas em produtos de origem animal, como carne vermelha e laticínios integrais, devem ser consumidas com moderação. As gorduras trans, frequentemente encontradas em alimentos processados, devem ser evitadas devido aos seus efeitos negativos na saúde.</p>
       <p>Incluir gorduras saudáveis na sua dieta é essencial, especialmente para atletas que precisam manter os níveis de energia para treinos prolongados ou eventos de resistência. As gorduras também apoiam a produção de hormônios como a testosterona e hormônios do crescimento, fundamentais para o desenvolvimento muscular e recuperação.</p>
+      </div>
      
-     
-      <h2  class="my-5">Micronutrientes: Os Heróis Não Reconhecidos</h2>
+      <h2  class="my-5" id="topico3">Micronutrientes: Os Heróis Não Reconhecidos</h2>
       <p>Embora os macronutrientes sejam essenciais para fornecer energia e promover o crescimento, os micronutrientes são igualmente importantes para a saúde geral e o desempenho. Os micronutrientes incluem vitaminas e minerais, e, embora sejam necessários em menores quantidades, são cruciais para o bom funcionamento do corpo. Deficiências em micronutrientes podem levar a uma série de problemas de saúde, como fadiga, cãibras musculares, enfraquecimento do sistema imunológico e recuperação inadequada.</p>
       <h3 class="my-3">Vitaminas</h3>
       <p>As vitaminas são compostos orgânicos essenciais para várias funções do corpo. Para atletas e entusiastas do fitness, algumas vitaminas são particularmente importantes para o desempenho e a recuperação. Por exemplo, a vitamina C apoia a função imunológica e auxilia na formação de colágeno, fundamental para a saúde das articulações e tendões. A vitamina D, muitas vezes obtida pela exposição ao sol ou por alimentos fortificados, desempenha um papel chave na saúde óssea e na função muscular. As vitaminas do complexo B são importantes para o metabolismo de energia, especialmente em treinos de alta intensidade.</p>
@@ -91,13 +110,13 @@
       <p>Uma dieta equilibrada que inclua uma variedade de frutas, vegetais, grãos integrais, proteínas magras e gorduras saudáveis geralmente fornecerá todas as vitaminas e minerais necessários. No entanto, se você estiver treinando com alta intensidade ou tiver restrições dietéticas específicas, pode ser necessário focar em certos micronutrientes para evitar deficiências.</p>
      
      
-      <h2  class="my-5">Hidratação: O Papel da Água no Fitness</h2>
+      <h2  class="my-5" id="topico4">Hidratação: O Papel da Água no Fitness</h2>
       <p>A água muitas vezes é negligenciada quando se fala em nutrição, mas é o componente mais crítico de uma dieta saudável. A hidratação é essencial para quase todas as funções do corpo, incluindo regulação da temperatura corporal, transporte de nutrientes e auxílio na digestão. Durante o exercício, a hidratação se torna ainda mais importante, pois a água ajuda a manter o equilíbrio de fluidos, prevenir a desidratação e apoiar a função muscular.</p>
       <p>Quando você se exercita, perde água através do suor, e essas perdas precisam ser repostas para manter o desempenho máximo. A desidratação pode levar a fadiga, cãibras e diminuição do desempenho atlético. Recomenda-se beber água antes, durante e depois do exercício para manter-se adequadamente hidratado. A quantidade de água necessária pode variar com base em fatores como tamanho do corpo, intensidade da atividade e condições ambientais, mas uma diretriz geral é beber pelo menos oito copos (cerca de dois litros) de água por dia, com hidratação adicional durante o exercício.</p>
       <p>Para treinos de longa duração ou intensos, bebidas ricas em eletrólitos podem ser benéficas. Essas bebidas ajudam a repor minerais essenciais, como sódio, potássio e magnésio, que são perdidos através do suor. No entanto, é melhor evitar bebidas esportivas açucaradas, a menos que seja necessário, pois podem levar ao excesso de calorias vazias.</p>
      
      
-      <h2  class="my-5">O Timing e a Frequência das Refeições</h2>
+      <h2  class="my-5" id="topico5">O Timing e a Frequência das Refeições</h2>
       <p>Quando se trata de nutrição, o timing desempenha um papel importante na otimização do desempenho e da recuperação. Embora a qualidade geral e a composição da sua dieta sejam fundamentais, o timing das refeições pode ajudar a maximizar a eficácia dos seus treinos e garantir que o corpo tenha os nutrientes necessários quando mais precisa deles.</p>
       <h3 class="my-3">Nutrição Pré-Treino</h3>
       <p>O que você come antes de um treino pode impactar significativamente seu desempenho. Idealmente, sua refeição pré-treino deve fornecer uma fonte de carboidratos para energia, juntamente com proteína moderada para apoiar a função muscular. Essa refeição deve ser consumida cerca de 30 a 60 minutos antes do exercício, dando tempo para o corpo digerir e absorver os nutrientes. Uma refeição equilibrada pré-treino pode incluir aveia com frutas e uma dose de proteína em pó, ou um sanduíche de frango com pão integral.</p>
@@ -106,8 +125,9 @@
       <h3 class="my-3">Frequência das Refeições</h3>
       <p>A frequência das refeições pode variar com base nas necessidades e preferências individuais. Algumas pessoas se saem melhor com três refeições maiores por dia, enquanto outras preferem comer refeições menores e mais frequentes. O importante é garantir que você está atendendo às suas necessidades nutricionais diárias e mantendo níveis equilibrados de açúcar no sangue. Se seu objetivo é ganhar músculo ou melhorar o desempenho atlético, consumir proteína regularmente ao longo do dia (a cada 3-4 horas) pode ser benéfico para a síntese de proteína muscular.</p>
      
-     
-      <h2  class="my-5">Dietas Especiais para Objetivos de Fitness</h2>
+      <div class="clearfix mt-5">
+      <img src="img/dieta.jpg" class="col-md-5 float-md-end mb-3 ms-md-3 rounded-bottom rounded-end shadow " alt="...">
+      <h2  class="mb-5" id="topico6">Dietas Especiais para Objetivos de Fitness</h2>
       <p>Dependendo de seus objetivos de fitness, você pode optar por seguir um plano alimentar específico que apoie esses objetivos. Algumas das dietas mais populares na comunidade fitness incluem dietas com baixo carboidrato, altas em proteína, cetogênica e baseadas em plantas. Cada uma dessas dietas tem seus benefícios e considerações, e a escolha certa para você dependerá das suas preferências, estilo de vida e metas.</p>
       <h3 class="my-3">Dietas Low-Carb</h3>
       <p>Dietas com baixo carboidrato, como Atkins ou Paleo, focam em reduzir a ingestão de carboidratos em favor do aumento do consumo de proteínas e gorduras. Essas dietas são frequentemente usadas para perda de peso ou perda de gordura, pois a redução de carboidratos pode levar a uma redução no consumo total de calorias e ajudar a regular os níveis de insulina.</p>
@@ -117,9 +137,9 @@
       <p>A dieta cetogênica é uma dieta alta em gorduras e muito baixa em carboidratos que induz um estado de cetose, onde o corpo queima gordura como combustível em vez de carboidratos. Essa dieta é frequentemente usada para perda de peso ou para melhorar a resistência de alguns atletas. No entanto, pode não ser ideal para todos, pois exige adesão rigorosa a uma alimentação com baixo carboidrato e pode não fornecer energia suficiente para treinos de alta intensidade.</p>
       <h3 class="my-3">Dieta Baseada em Plantas</h3>
       <p>Dietas baseadas em plantas, incluindo veganismo e vegetarianismo, focam em alimentos derivados de plantas, como frutas, vegetais, leguminosas e grãos integrais. Essas dietas podem fornecer todos os nutrientes necessários para o fitness, mas requerem um planejamento cuidadoso para garantir uma ingestão adequada de proteínas, ferro e outros nutrientes essenciais.</p>
+      </div>
      
-     
-      <h2  class="my-5">Conclusão</h2>
+      <h2  class="my-5" id="topico7">Conclusão</h2>
       <p>A nutrição é um elemento crucial de qualquer jornada de fitness. Seja seu objetivo perder peso, ganhar músculo ou melhorar o desempenho geral, entender o papel dos macronutrientes, micronutrientes, hidratação e timing das refeições ajudará você a alcançar seus objetivos de forma mais eficaz. Uma dieta bem equilibrada que forneça os nutrientes certos no momento certo, combinada com exercícios regulares, maximizará seus resultados e promoverá a saúde e o bem-estar a longo prazo.</p>
       <p>Ao focar em uma dieta diversificada e rica em nutrientes, adaptada às suas necessidades específicas, você pode alimentar seu corpo adequadamente, apoiar o crescimento e a recuperação muscular e garantir que seus treinos sejam o mais eficaz possível. A chave é a consistência e encontrar um plano nutricional que se encaixe no seu estilo de vida e aspirações de fitness.</p>
      
@@ -226,7 +246,7 @@
               <!-- Copyright -->
               <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2025 Copyright:
-                <a class="text-white" href="https://github.com/MarcosOki/UepaAvaliacao">Daniel Marim - Marcos Okita - Fillipe Martins</a>
+                <a class="text-white" href="https://github.com/MarcosOki/UepaAvaliacao">Daniel Marim - Marcos Okita - Fellipe Martins</a>
               </div>
               <!-- Copyright -->
             </footer>
@@ -235,6 +255,4 @@
           <!-- End of .container -->
     </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>

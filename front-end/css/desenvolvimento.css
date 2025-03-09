@@ -10,4 +10,15 @@ h2 {
     height: 500px;
     position: relative;
   }
-  
+  .background-image-vestuário {
+    background:url("../img/vestuário_banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  .background-image-nutrição {
+    background:url("../img/nutrição-banner.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
