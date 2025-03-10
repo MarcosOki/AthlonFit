@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-if(empty($_SESSION)){
+if (empty($_SESSION)) {
     header("Location: page-login.php");
     exit();
 }
@@ -71,7 +71,7 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
             </div>
         </nav>
     </header>
-    <section id="main-admin" class="bg-dark d-flex flex-column " style="height: 90vh;">
+    <section id="main-admin" class="bg-dark d-flex flex-column " style="min-height: 90vh;">
         <form method="GET" class="pt-3 d-flex justify-content-center py-5" style="background-image: url('./img/bg-admin.jpg');background-size: cover;">
             <div class=" w-50 d-flex flex-column align-items-center gap-3">
                 <label for="exampleFormControlInput1" class="form-label text-white display-3">Pesquisar</label>
@@ -80,8 +80,7 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
             </div>
             </div>
         </form>
-
-        <table class="table table-bordered table-dark table-hover">
+        <table class="table table-bordered table-striped table-dark ">
             <thead>
                 <tr>
                     <th scope="col" class="text-center">Nome</th>
@@ -92,15 +91,14 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
             <tbody>
                 <?php
                 while ($row = mysqli_fetch_assoc($result)) {
-                    $id = $row['id'];
                     $nome = $row['nome'];
                     $email = $row['email'];
-                    $mensagem = $row['message'];
+                    $mensagem = $row['mensagem'];
                     echo "<tr class='text-center'>
                             <td>$nome</td>
                             <td>$email</td>
                             <td class='text-break'>$mensagem</td>
-                            <th class='align-center'><span><button class='btn btn-danger'>Excluir</button></span></th>";
+                            <th class='align-center'><span><button class='btn btn-danger btn-sm'>Excluir</button></span></th>";
                 }
                 ?>
             </tbody>
