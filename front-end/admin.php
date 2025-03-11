@@ -33,44 +33,44 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-1">
-            <div class="container d-flex align-items-center">
-                <a class="navbar-brand d-flex align-items-center">
-                    <img src="img/logos.png" class="logo img-fluid me-2" alt="Logo" style="height: 50px;">
-                    <span class="fs-1 mb-0 ">thlon</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav fs-5 ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="index.html">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="equipe.html">Equipe</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDesempenho" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desempenho</a>
-                            <ul class="dropdown-menu bg-dark text-light" aria-labelledby="navbarDesempenho">
-                                <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="performance.html">Dicas de Performance</a></li>
-                                <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="nutrição.html">Nutrição</a></li>
-                                <li><a class="dropdown-item bg-dark text-light hover:bg-light hover:text-dark" href="vestuário.html">Vestimenta Especializada</a></li>
-                            </ul>
-                        </li>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="fale-conosco.php">Fale-conosco</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-3" href="admin.php">Administração</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-1">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/logos.png" class="logo img-fluid me-2" alt="Logotipo da Athlon Fitness, Que é a Letra 'A'." style="height: 50px;">
+          <span class="fs-1 mb-0">thlon</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fs-5 ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link active mx-3" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-3" href="equipe.html">Equipe</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDesempenho" role="button" data-bs-toggle="dropdown" aria-expanded="false">Desempenho</a>
+                <ul class="dropdown-menu bg-dark text-light" aria-labelledby="navbarDesempenho">
+                  <li><a class="dropdown-item bg-dark text-light active" href="performance.html">Dicas de Performance</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="nutricao.html">Nutrição</a></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="vestuario.html">Vestimenta Especializada</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-3" href="fale-conosco.php">Fale Conosco</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link mx-3" href="admin.php">Administração</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
     <section id="main-admin" class="bg-dark d-flex flex-column " style="min-height: 90vh;">
         <form method="GET" class="pt-3 d-flex justify-content-center py-5" style="background-image: url('./img/bg-admin.jpg');background-size: cover;">
             <div class=" w-50 d-flex flex-column align-items-center gap-3">

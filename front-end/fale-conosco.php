@@ -33,7 +33,7 @@ if (isset($_GET['success'])) {
 
 <body class="bg-dark">
 
-  <header class="sticky-top">
+<header class="sticky-top">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-1">
       <div class="container d-flex align-items-center">
         <a class="navbar-brand d-flex align-items-center" href="#">
