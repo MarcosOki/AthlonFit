@@ -47,7 +47,7 @@ if (isset($_GET['success'])) {
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav fs-5 ms-auto">
               <li class="nav-item">
-                  <a class="nav-link active mx-3" aria-current="page" href="index.html">Início</a>
+                  <a class="nav-link mx-3" aria-current="page" href="index.html">Início</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link mx-3" href="equipe.html">Equipe</a>
@@ -61,7 +61,7 @@ if (isset($_GET['success'])) {
                 </ul>
               </li>
               <li class="nav-item">
-                  <a class="nav-link mx-3" href="fale-conosco.php">Fale Conosco</a>
+                  <a class="nav-link mx-3 active" href="fale-conosco.php">Fale Conosco</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link mx-3" href="admin.php">Administração</a>

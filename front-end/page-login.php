@@ -18,7 +18,6 @@
             <div class="container d-flex align-items-center">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="img/logos.png" class="logo img-fluid me-2" alt="Logotipo da Athlon Fitness, Que é a Letra 'A'." style="height: 50px;">
-                    <!-- <span class="fs-1 mb-0">thlon</span>--> 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav fs-5 ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active mx-3" aria-current="page" href="index.html">Início</a>
+                            <a class="nav-link mx-3" aria-current="page" href="index.html">Início</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link mx-3" href="equipe.html">Equipe</a>
@@ -44,7 +43,7 @@
                             <a class="nav-link mx-3" href="fale-conosco.php">Fale Conosco</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-3" href="admin.php">Administração</a>
+                            <a class="nav-link mx-3 active" href="admin.php">Administração</a>
                         </li>
                     </ul>
                 </div>
