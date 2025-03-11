@@ -91,6 +91,7 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
             <tbody>
                 <?php
                 while ($row = mysqli_fetch_assoc($result)) {
+                    $id= $row['id'];
                     $nome = $row['nome'];
                     $email = $row['email'];
                     $mensagem = $row['mensagem'];
@@ -98,7 +99,7 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
                             <td>$nome</td>
                             <td>$email</td>
                             <td class='text-break'>$mensagem</td>
-                            <th class='align-center'><span><button class='btn btn-danger btn-sm'>Excluir</button></span></th>";
+                            <th class='align-center'><a class='btn btn-danger btn-sm' href='database/req/apagar.php?id=$id'>Excluir</a></th>";
                 }
                 ?>
             </tbody>
