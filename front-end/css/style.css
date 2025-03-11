@@ -63,3 +63,11 @@ header {
   height: 50px;
   font-size: 20px;
 }
+#section-login {
+  display: flex;
+  color:white;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
