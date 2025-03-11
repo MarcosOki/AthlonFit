@@ -1,8 +1,9 @@
 <?php
-if (empty($_SESSION)) {
-    header("Location: page-login.php");
-    exit();
+
+if(empty($_SESSION)) {
+    header("Location: ../../page-login.php");
 }
+
 $id = $_GET['id'];
 include '../conexao.php';
 $sql = "DELETE FROM faleConosco WHERE id = $id";
