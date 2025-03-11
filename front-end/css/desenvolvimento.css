@@ -3,11 +3,22 @@ h2 {
     padding: 10px; /* Espaçamento interno */
     border-left: 5px solid whitesmoke; /* Barra lateral para destaque */
     font-size: 1.5em;
-  }
-  .background-image-performance {
-    background:url(../img/performance_banner.jpg) no-repeat center center;
-    background-size: cover;
-    height: 500px;
-    position: relative;
-  }
-  
+}
+.background-image-performance {
+  background:url(../img/performance_banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.background-image-vestuário {
+  background:url("../img/vestuário_banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.background-image-nutrição {
+  background:url("../img/nutrição-banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
