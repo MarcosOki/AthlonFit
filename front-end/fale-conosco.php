@@ -95,6 +95,15 @@ if (isset($_GET['success'])) {
         <label for="exampleFormControlTextarea1" class="form-label text-white">Mensagem</label>
         <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <div class="mb-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Escolha o assunto:</option>
+          <option value="1">Marcar sua aula</option>
+          <option value="2">Feedback</option>
+          <option value="3">Localidades</option>
+        </select>
+      </div>
+
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
   </section>
