@@ -17,7 +17,7 @@
       <div class="container d-flex align-items-center">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="img/logos.png" class="logo img-fluid me-2" alt="Logotipo da Athlon Fitness, Que é a Letra 'A'." style="height: 50px;">
-            <span class="fs-1 mb-0">thlon</span>
+          <span class="fs-1 mb-0">thlon</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,9 +51,18 @@
     </nav>
   </header>
 
-  <section>
-      <img src="img/banner-homepage.png" class="w-100" alt="banner: Sua Mudança Começa Aqui.">
-  </section>
+  <section class="video-banner position-relative">
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="w-100">
+            <source src="videos/banner-homepag.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5
+        </video>
+    </div>
+    <div class="video-text position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="display-3 fw-bold mb-4">Sua Mudança</h1>
+        <h2 class="display-4">Começa Aqui</h2>
+    </div>
+</section>
 
   <section class="text-light" >
     <div class="px-4 py-5 my-5 text-center" >
