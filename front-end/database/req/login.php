@@ -25,5 +25,5 @@ if($row > 0){
 }else{
     echo "<script>alert('usuario não encontrado')</script>";
     $em = "Usuário ou senha inválidos";
-    header('Location: ../page-login.php?erro='.$em);
+    header('Location: ../../page-login.php?erro='.$em);
 }

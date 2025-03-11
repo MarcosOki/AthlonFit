@@ -64,7 +64,7 @@ if (isset($_GET["pesquisa"]) || !empty($_GET["pesquisa"])) {
                             <a class="nav-link mx-3" href="fale-conosco.php">Fale Conosco</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-3 btn btn-danger w-100 text-white" href="database/req/logout.phpd">Sair</a>
+                            <a class="nav-link mx-3 btn btn-danger w-100 text-white" href="database/req/logout.php">Sair</a>
                         </li>
                     </ul>
                 </div>

@@ -1,3 +1,17 @@
+<?php
+
+if (isset($_GET["erro"])) {
+    $msg = $_GET['erro'];
+    echo "<script>
+              document.addEventListener('DOMContentLoaded', function () {
+              document.getElementById('section-fale-conosco').scrollIntoView();
+              });
+              alert('Error: Usuário ou senha inválidos!');
+            </script>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -50,11 +64,11 @@
             </div>
         </nav>
     </header>
-    <section class=" text-white d-flex align-items-center justify-content-evenly px-5 overflow-hidden"  id="section-login-page">
+    <section class=" text-white d-flex align-items-center justify-content-evenly px-5 overflow-hidden" id="section-login-page">
         <div class="d-flex flex-column justify-content-around" style="height: 90vh;">
             <div class="w-50">
                 <h1 class="display-1">ATHLON</h1>
-                <h2 >Painel de Administração para Gerenciamento de Dúvidas da Athlon.</h2>
+                <h2>Painel de Administração para Gerenciamento de Dúvidas da Athlon.</h2>
             </div>
             <button type="button" class="btn btn-outline-light w-25 py-3" data-bs-toggle="modal" data-bs-target="#loginModal" style="border-radius: 50px;">
                 Acesso Restrito
