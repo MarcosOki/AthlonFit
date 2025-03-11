@@ -1,5 +1,5 @@
 .logo {
-    height: 70px;
+  height: 70px;
 }
 .card-img-top {
   height: 400px;
@@ -13,11 +13,12 @@
   border: none;
   background-color: transparent;
 }
-.card-title, .card-text {
-  color: white; 
+.card-title,
+.card-text {
+  color: white;
 }
 .background-image-equipe {
-  background:url(../img/banner-equipe.jpg) no-repeat center center;
+  background: url(../img/banner-equipe.jpg) no-repeat center center;
   background-size: cover;
   height: 500px;
   position: relative;
@@ -82,46 +83,58 @@ video {
 }
 #section-login {
   display: flex;
-  color:white;
+  color: white;
   height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#coo{
+#coo {
   opacity: 0;
 }
-#ceo{
+#ceo {
   opacity: 0;
 }
-#cto{
+#cto {
   opacity: 0;
 }
 @keyframes slideLeft {
-  from{
+  from {
     transform: translateX(100%);
     opacity: 0;
   }
-  to{
-    transform: translateX(0) ;
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }
 @keyframes slideRight {
-  from{
+  from {
     transform: translateX(-100%);
     opacity: 0;
   }
-  to{
-    transform: translateX(0) ;
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }
 
-
 .slideLeft {
   animation: slideLeft 1s ease-out forwards;
 }
-.slideRight{
+.slideRight {
   animation: slideRight 1s ease-out forwards;
+}
+
+#section-login-page {
+  max-height: 90vh;
+  background-color: black;
+}
+#section-login-page img{
+  width: 300px;
+  border-start-start-radius: 60px;
+  border-end-start-radius: 60px;
+}
+#section-login-page h2{
+  font-weight: 200;
 }
